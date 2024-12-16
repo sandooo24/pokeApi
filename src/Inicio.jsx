@@ -6,7 +6,7 @@ export default function Inicio(){
     const [buscador, setBuscador ] = useState("")
 
     const input = (e) =>{
-        setBuscador(e.target.value)
+        setBuscador(e.target.value.toLowerCase())
     }
 
     useEffect(()=>{
