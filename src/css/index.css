@@ -18,6 +18,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -72,61 +73,96 @@ button:focus-visible {
   }
 }
 
-.box{
+
+section{
   width: 100%;
   display: grid;
   justify-items: center;
 }
 
-.box input{
+section input{
   width: 25%;
   padding: .5rem 1rem
 }
 
-.carta-poke{
-  background-color: #0b4aa3;
-  text-align: center;
-  padding: .5rem 1rem;
-  width: 180px;
-  border: 2px solid #fff;
-  border-radius: 10px;
-  margin: 1rem;
-}
-.carta-poke h2{
-  text-transform: capitalize;
-}
-
-.carta-poke img{
-  width: 100%;
-  filter: drop-shadow(2px 4px 6px black);
-}
-
-.carta-poke ul{
-  list-style: none;
-  text-align: left;
-  padding: 0;
-}
-
-.carta-poke ul li{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.carta-poke ul li span{
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-@media (max-width: 700px) {
-  .box input{
-    width: 50%;
+@media (max-width: 450px) {
+  section input{
+    width: 70%;
   }
 }
 
-@media (max-width: 500px) {
-  .carta-poke{
-    width: 270px;
-  }
+/* 
+    TIPOS DE POKEMONES  
+*/
+.bug {
+  background: #aedf78;
 }
 
+.water {
+  background: #43ccff;
+}
+
+.grass {
+  background: #00ca91;
+}
+
+.fire {
+  background: #e95c4d;
+}
+
+.normal {
+  background: #a5a5a5;
+}
+
+.poison {
+  background: #611380;
+}
+
+.electric {
+  background: #f9be00;
+}
+.ground {
+  background: #bfac21;
+}
+
+.fairy {
+  background: #f87ea7;
+}
+
+.fighting {
+  background: #e81319;
+}
+.psychic {
+  background: #8a0532;
+}
+
+.ghost {
+  background: #8e55a4;
+}
+.rock {
+  background: #776a3e;
+}
+.ice {
+  background: #66d1e5;
+}
+.flying {
+  background: #5eb9b2;
+}
+.dark {
+  background: #2d221c;
+}
+
+.dragon {
+  background: #29036a;
+}
+
+.steel {
+  background: #7b8e8a;
+}
+.unknown {
+  background: #454545;
+}
+
+.shadow {
+  background: #4f4f4f;
+}
